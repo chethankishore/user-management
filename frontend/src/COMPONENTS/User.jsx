@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation, useNavigate } from 'react-router'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { FaUserCircle, FaEnvelope, FaBirthdayCake, FaPhoneAlt, FaArrowLeft } from "react-icons/fa";
 
 function User() {

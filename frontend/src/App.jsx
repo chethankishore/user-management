@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import {createBrowserRouter,RouterProvider} from 'react-router'
+import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import RootLayout from './COMPONENTS/RootLayout.jsx'
 import Home from './COMPONENTS/Home.jsx'
 import AddUser from './COMPONENTS/AddUser.jsx'
