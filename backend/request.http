@@ -1,0 +1,36 @@
+###create user
+POST http://localhost:4040/user-api/users
+Content-Type: application/json
+
+{
+    "name":"akaash",
+    "email":"akaash@email.com",
+    "dateOfBirth":"2000-09-12",
+    "mobileNumber":9999999
+}
+
+
+
+
+
+###read all user
+GET http://localhost:4040/user-api/users
+
+
+
+
+
+###read user by id
+GET http://localhost:4040/user-api/users/69a681bc5122d1e9d7de6409
+
+
+
+
+
+###
+DELETE http://localhost:4040/user-api/users/69a681bc5122d1e9d7de6409
+
+
+
+###
+PATCH http://localhost:4040/user-api/users/69a681bc5122d1e9d7de6409
