@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { useNavigate } from 'react-router-dom-dom'
+import { useNavigate } from 'react-router-dom'
 import { FaUserPlus } from "react-icons/fa";
 
 function AddUser() {

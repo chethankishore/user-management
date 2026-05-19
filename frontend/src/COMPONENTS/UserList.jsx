@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom-dom'
+import { useNavigate } from 'react-router-dom'
 import {
   FaUsers,
   FaEnvelope,
